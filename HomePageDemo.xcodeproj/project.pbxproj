@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		91F1302027CEFF9E003B4FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1301F27CEFF9E003B4FA1 /* AppDelegate.swift */; };
 		91F1302227CEFF9E003B4FA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1302127CEFF9E003B4FA1 /* SceneDelegate.swift */; };
-		91F1302427CEFF9E003B4FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1302327CEFF9E003B4FA1 /* ViewController.swift */; };
+		91F1302427CEFF9E003B4FA1 /* MerchantHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1302327CEFF9E003B4FA1 /* MerchantHomePage.swift */; };
 		91F1302727CEFF9E003B4FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F1302527CEFF9E003B4FA1 /* Main.storyboard */; };
 		91F1302927CEFFA0003B4FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F1302827CEFFA0003B4FA1 /* Assets.xcassets */; };
 		91F1302C27CEFFA0003B4FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F1302A27CEFFA0003B4FA1 /* LaunchScreen.storyboard */; };
+		91F1304827D0A884003B4FA1 /* MerchantHomePage+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1304727D0A884003B4FA1 /* MerchantHomePage+DataSource.swift */; };
+		91F1304A27D0A8AD003B4FA1 /* MerchantHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1304927D0A8AD003B4FA1 /* MerchantHomePageCell.swift */; };
+		91F1304C27D0AC20003B4FA1 /* MerchantHomePage+DelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1304B27D0AC20003B4FA1 /* MerchantHomePage+DelegateFlowLayout.swift */; };
+		91F1305127D0B030003B4FA1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1305027D0B030003B4FA1 /* DataModel.swift */; };
+		91F1305327D0B344003B4FA1 /* UIColor+Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1305227D0B344003B4FA1 /* UIColor+Merchant.swift */; };
+		91F1307727D1A25B003B4FA1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1307527D1A25B003B4FA1 /* SettingViewController.swift */; };
+		91F1307B27D1A279003B4FA1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1307927D1A278003B4FA1 /* ProfileViewController.swift */; };
+		91F1307E27D1A452003B4FA1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1307D27D1A452003B4FA1 /* TabBarController.swift */; };
+		91F1308227D1A8AD003B4FA1 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1308127D1A8AD003B4FA1 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91F1301C27CEFF9E003B4FA1 /* HomePageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F1301F27CEFF9E003B4FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91F1302127CEFF9E003B4FA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91F1302327CEFF9E003B4FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91F1302327CEFF9E003B4FA1 /* MerchantHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantHomePage.swift; sourceTree = "<group>"; };
 		91F1302627CEFF9E003B4FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91F1302827CEFFA0003B4FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91F1302B27CEFFA0003B4FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91F1302D27CEFFA0003B4FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F1304727D0A884003B4FA1 /* MerchantHomePage+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MerchantHomePage+DataSource.swift"; sourceTree = "<group>"; };
+		91F1304927D0A8AD003B4FA1 /* MerchantHomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantHomePageCell.swift; sourceTree = "<group>"; };
+		91F1304B27D0AC20003B4FA1 /* MerchantHomePage+DelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MerchantHomePage+DelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		91F1305027D0B030003B4FA1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		91F1305227D0B344003B4FA1 /* UIColor+Merchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Merchant.swift"; sourceTree = "<group>"; };
+		91F1307527D1A25B003B4FA1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		91F1307927D1A278003B4FA1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		91F1307D27D1A452003B4FA1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		91F1308127D1A8AD003B4FA1 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,80 @@
 		91F1301E27CEFF9E003B4FA1 /* HomePageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				91F1304F27D0B026003B4FA1 /* Model */,
+				91F1304E27D0B01D003B4FA1 /* View */,
+				91F1304D27D0B013003B4FA1 /* ViewController */,
 				91F1301F27CEFF9E003B4FA1 /* AppDelegate.swift */,
 				91F1302127CEFF9E003B4FA1 /* SceneDelegate.swift */,
-				91F1302327CEFF9E003B4FA1 /* ViewController.swift */,
 				91F1302527CEFF9E003B4FA1 /* Main.storyboard */,
 				91F1302827CEFFA0003B4FA1 /* Assets.xcassets */,
 				91F1302A27CEFFA0003B4FA1 /* LaunchScreen.storyboard */,
 				91F1302D27CEFFA0003B4FA1 /* Info.plist */,
 			);
 			path = HomePageDemo;
+			sourceTree = "<group>";
+		};
+		91F1304D27D0B013003B4FA1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				91F1307D27D1A452003B4FA1 /* TabBarController.swift */,
+				91F1307427D1A225003B4FA1 /* MerchantHome */,
+				91F1307F27D1A459003B4FA1 /* Setting */,
+				91F1308027D1A469003B4FA1 /* Profile */,
+				91F1308327D1A8B2003B4FA1 /* Contact */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		91F1304E27D0B01D003B4FA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91F1304927D0A8AD003B4FA1 /* MerchantHomePageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91F1304F27D0B026003B4FA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91F1305027D0B030003B4FA1 /* DataModel.swift */,
+				91F1305227D0B344003B4FA1 /* UIColor+Merchant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91F1307427D1A225003B4FA1 /* MerchantHome */ = {
+			isa = PBXGroup;
+			children = (
+				91F1302327CEFF9E003B4FA1 /* MerchantHomePage.swift */,
+				91F1304727D0A884003B4FA1 /* MerchantHomePage+DataSource.swift */,
+				91F1304B27D0AC20003B4FA1 /* MerchantHomePage+DelegateFlowLayout.swift */,
+			);
+			path = MerchantHome;
+			sourceTree = "<group>";
+		};
+		91F1307F27D1A459003B4FA1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				91F1307527D1A25B003B4FA1 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		91F1308027D1A469003B4FA1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				91F1307927D1A278003B4FA1 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		91F1308327D1A8B2003B4FA1 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				91F1308127D1A8AD003B4FA1 /* ContactViewController.swift */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +221,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F1302427CEFF9E003B4FA1 /* ViewController.swift in Sources */,
+				91F1305127D0B030003B4FA1 /* DataModel.swift in Sources */,
+				91F1302427CEFF9E003B4FA1 /* MerchantHomePage.swift in Sources */,
+				91F1307E27D1A452003B4FA1 /* TabBarController.swift in Sources */,
+				91F1307B27D1A279003B4FA1 /* ProfileViewController.swift in Sources */,
 				91F1302027CEFF9E003B4FA1 /* AppDelegate.swift in Sources */,
+				91F1308227D1A8AD003B4FA1 /* ContactViewController.swift in Sources */,
+				91F1305327D0B344003B4FA1 /* UIColor+Merchant.swift in Sources */,
+				91F1304A27D0A8AD003B4FA1 /* MerchantHomePageCell.swift in Sources */,
+				91F1307727D1A25B003B4FA1 /* SettingViewController.swift in Sources */,
+				91F1304827D0A884003B4FA1 /* MerchantHomePage+DataSource.swift in Sources */,
+				91F1304C27D0AC20003B4FA1 /* MerchantHomePage+DelegateFlowLayout.swift in Sources */,
 				91F1302227CEFF9E003B4FA1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
